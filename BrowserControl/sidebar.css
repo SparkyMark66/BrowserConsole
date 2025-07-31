@@ -1,0 +1,60 @@
+body {
+    background-color: #1a1a1a; /* Dark background */
+    color: #00ff00; /* Green text for console feel */
+    font-family: 'Consolas', 'Menlo', 'monospace'; /* Monospace font */
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; /* Arrange elements vertically */
+    height: 100vh; /* Make it fill the sidebar height */
+    overflow: hidden; /* Prevent body scroll */
+}
+
+#console-output {
+    flex-grow: 1; /* Allow output to take available space */
+    overflow-y: auto; /* Scroll output if it overflows */
+    white-space: pre-wrap; /* Preserve whitespace and wrap text */
+    padding-bottom: 5px; /* Spacing before input */
+    line-height: 1.4; /* Improve readability */
+}
+
+.command-line {
+    color: #00ffff; /* Cyan for entered commands */
+    margin-bottom: 5px;
+}
+
+.output-line {
+    color: #00ff00; /* Default output color */
+    margin-bottom: 5px;
+}
+
+.error-line {
+    color: #ff0000; /* Red for errors */
+    margin-bottom: 5px;
+}
+
+#console-input-line {
+    display: flex;
+    align-items: baseline; /* Align prompt and input vertically */
+    padding-top: 5px; /* Spacing after output */
+    border-top: 1px solid #333; /* Separator line */
+    flex-shrink: 0; /* Prevent input line from shrinking */
+}
+
+#prompt {
+    margin-right: 5px;
+    color: #00ffff; /* Cyan for prompt */
+    user-select: none; /* Prevent selection of prompt text */
+}
+
+#command-input {
+    flex-grow: 1; /* Allow input to take remaining width */
+    background-color: transparent; /* No background */
+    border: none; /* No border */
+    color: inherit; /* Inherit text color */
+    font-family: inherit; /* Inherit font family */
+    font-size: inherit; /* Inherit font size */
+    outline: none; /* Remove focus outline */
+    caret-color: #00ff00; /* Green blinking cursor */
+}
