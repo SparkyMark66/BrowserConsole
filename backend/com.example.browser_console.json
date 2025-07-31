@@ -1,0 +1,9 @@
+﻿{
+    "name":  "com.example.browser_console",
+    "description":  "Browser sidebar console host for native commands",
+    "path":  "C:\\Users\\mark\\source\\browser\\BrowserConsole\\backend\\run_native_host.bat",
+    "type":  "stdio",
+    "allowed_origins":  [
+                            "chrome-extension://epjgddkkphgbpflojlfplhojogkmambd/"
+                        ]
+}
