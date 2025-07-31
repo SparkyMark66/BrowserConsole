@@ -2,7 +2,7 @@
 
 Ever wished you could run system commands directly from your browser's sidebar? Well, your wish just came true\! Introducing the **Browser Console Extension** – a super cool tool that brings a familiar command-line interface right into your favorite web browser.
 
-![Alt text[Screen Shot](https://github.com/SparkyMark66/BrowserConsole/blob/main/Screenshot.png)?raw=true)
+![Screen Shot](https://github.com/SparkyMark66/BrowserConsole/blob/main/Screenshot.png)
 
 ## **🌟 What Does This Magical Extension Do?**
 
