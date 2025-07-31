@@ -20,8 +20,7 @@ While it's undeniably cool, this extension isn't just for show. Think of the pos
 * **Quick System Checks:** Need to quickly check your IP address (ipconfig / ip a) or see what files are in a directory (dir / ls) without leaving your browser? Done\!  
 * **Developer's Sidekick:** For web developers, quickly run build scripts, check environment variables, or even trigger local server commands without switching windows.  
 * **Learning & Experimentation:** A safe and accessible way to learn basic command-line operations without opening a separate terminal.  
-* **Productivity Boost:** Keep your focus in one place – your browser – while still having powerful system access at your fingertips. Originally built to allow me to ‘Vibe Code’ directly in my browser whilst interacting with a LLM. Specifically using my Python implementation Touch (touchp   
-* \[Link Text\]([https://github.com/SparkyMark66/TouchP](https://github.com/SparkyMark66/TouchP)) is an implementation of touch with a following paste operation. So the text in the clipboard can be saved to the filesystem from the browser, and also run from within the browser.
+* **Productivity Boost:** Keep your focus in one place – your browser – while still having powerful system access at your fingertips. Originally built to allow me to ‘Vibe Code’ directly in my browser whilst interacting with a LLM. Specifically using my Python implementation Touch (touchp a touch and paste python Application https://github.com/SparkyMark66/TouchP).
 
 ## **📦 How to Get This Awesome Extension (from GitHub)**
 
